@@ -6,7 +6,81 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Sign-up form</title>
 </head>
+
 <body>
-    
+    <div class="logo">
+        <div class="logo__top-box">
+            <div class="logo__odin-bg">
+                <img class="logo__odin-img" src="./img/odin-lined.png" alt="Odin logo" >
+                <span class="logo__odin-text">Odin<span>
+            </div>
+        </div>
+
+        <div class="logo__bottom-box">
+            <p class="logo__citation-text">
+                Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a>
+            </p>
+        </div>
+
+    </div>
+
+    <div class="data">
+
+        <div class="data__top-box">
+            <p class="data__text-inspire1">
+                This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            </p>
+            <p class="data__text-inspire1">Sign up <em>now</em> to get started.</p>
+            <p class="data__text-inspire2">You <em>know</em> you want to.</p>
+        </div>
+
+        <div class="data__middle-box">
+            <p class="data__do-text">Let's do this!</p>
+            <form action="" method="" id="form">
+                <section class="data__input-row">
+                    <div>
+                        <label for="form-first-name">FIRST NAME</label>
+                        <input type="text" name="user_name" id="form-first-name">
+                    </div>
+                    <div>
+                        <label for="form-last-name">LAST NAME</label>
+                        <input type="text" name="user_surname" id="form-last-name">
+                    </div>
+                </section>
+                <section class="data__input-row">
+                    <div>
+                        <label for="form-email">EMAIL</label>
+                        <input type="email" name="user_email" id="form-email">
+                    </div>
+                    <div>
+                        <label for="form-phone">PHONE NUMBER</label>
+                        <input type="tel" name="user_phone" id="form-phone">
+                    </div>
+                </section>
+                <section class="data__input-row">
+                    <div>
+                        <label for="form-pwd">PASSWORD</label>
+                        <input type="password" name="user_password" id="form-pwd">
+                    </div>
+                    <div>
+                        <label for="form-pwdconfirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="user_password" id="form-pwdconfirm">
+                    </div>
+                </section>
+
+                
+
+            </form>
+        </div>
+
+        <div class="data__bottom-box">
+            <button class="data__button" form="form">Create Account</button>
+            <p class="data__account-text" >
+                Already have an account? 
+                <a href="">Log in</a>
+            </p>
+        </div>
+
+    </div>
 </body>
 </html>
